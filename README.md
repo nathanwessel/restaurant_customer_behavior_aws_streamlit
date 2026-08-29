@@ -14,6 +14,40 @@ A Streamlit dashboard that reads current-state Gold Parquet datasets directly fr
 
 The app also includes a landing Overview page summarizing the seven topics with a few high-level KPIs.
 
+## Screenshots
+
+### Overview
+
+![Overview dashboard](images/overview.png)
+
+### 1. Customer Lifetime Value
+
+![Customer Lifetime Value dashboard](images/01_customer_lifetime_value.png)
+
+### 2. Customer Segmentation & Behavior
+
+![Customer Segmentation & Behavior dashboard](images/02_customer_segmentation_and_behavior.png)
+
+### 3. Churn Indicators
+
+![Churn Indicators dashboard](images/03_churn_indicators.png)
+
+### 4. Sales Trends Monitoring
+
+![Sales Trends Monitoring dashboard](images/04_sales_trends_monitoring.png)
+
+### 5. Loyalty Program Impact
+
+![Loyalty Program Impact dashboard](images/05_loyalty_program_impact.png)
+
+### 6. Top-Performing Locations
+
+![Top-Performing Locations dashboard](images/06_top_performing_locations.png)
+
+### 7. Pricing & Discount Effectiveness
+
+![Pricing & Discount Effectiveness dashboard](images/07_pricing_and_discount_effectiveness.png)
+
 ## Data source
 
 The app reads from:
