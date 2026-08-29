@@ -1,6 +1,6 @@
 # Global Partners Streamlit Analytics
 
-A Streamlit dashboard that reads current-state Gold Parquet datasets directly from Amazon S3 and presents an Overview page plus the seven required customer and sales analytics topics.
+A Streamlit dashboard that reads current-state Gold Parquet datasets directly from Amazon S3 and presents an Overview page plus seven customer and sales analytics topics.
 
 ## Overview and topics
 
@@ -47,18 +47,6 @@ pip install -r requirements.txt
 ```
 
 If your normal AWS CLI credential chain is already configured locally, the app can use those credentials automatically with no extra secrets file required.
-
-If you are running in Streamlit Community Cloud or without a local AWS profile, create a `.streamlit/secrets.toml` file with an `[aws]` section, for example:
-
-```toml
-[aws]
-aws_access_key_id = "YOUR_KEY"
-aws_secret_access_key = "YOUR_SECRET"
-region_name = "us-east-1"
-
-# Optional if your account uses temporary credentials
-# aws_session_token = "YOUR_SESSION_TOKEN"
-```
 
 Run the dashboard from the project root:
 
